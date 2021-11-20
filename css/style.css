@@ -1,0 +1,30 @@
+.navbar li a {
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px;
+	color: #000!important;
+	font-weight: 500;
+	font-size: 16px;
+}
+.bg-white {
+	background-color: #fff;
+}
+
+.gradientbox {
+	background: linear-gradient(140deg, rgba(143,190,64,1) 10%, rgba(24,157,207,1) 100%);
+	padding: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px!important;
+	font-style: 16px;
+}
+
+.h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700!important;
+	font-size: 	32px!important;
+}
