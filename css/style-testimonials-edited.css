@@ -33,3 +33,11 @@
     
 }
 
+/** Media Queries **/
+@media (max-width: 575px) {
+    .container-testimonials{
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+}
