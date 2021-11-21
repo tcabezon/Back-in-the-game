@@ -4,15 +4,34 @@
 	color: #000!important;
 	font-weight: 500;
 	font-size: 16px;
+
 }
+
 .bg-white {
 	background-color: #fff;
+	height: 80px;
 }
 
 .gradientbox {
 	background: linear-gradient(140deg, rgba(143,190,64,1) 10%, rgba(24,157,207,1) 100%);
 	padding: 40px;
 	color: #fff;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.whitebox {
+	background: #fff;
+	padding: 40px;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.greybox {
+	background: #282828;
+	padding: 40px;
+	color: #000;
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -26,5 +45,68 @@
 .h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700!important;
-	font-size: 	32px!important;
+	font-size: 	2em!important;
+	margin-bottom: 3%!important;
+}
+
+.homeimage {
+	margin-bottom: 3%;
+	margin-top: 3%;
+  	width: 100%;
+}
+
+.homelogo {
+	margin-bottom: 2%;
+	margin-top: 2%;
+  	width: 100%;
+  	max-width: 300px;
+}
+
+.benefits {
+	margin-bottom: 2%;
+}
+
+
+/*Small devices*/
+@media (max-width: 768px) {
+	button.navbar-toggler {
+        position: absolute !important;
+        right: 20px !important;
+        top: auto !important;
+		bottom:auto;
+    }
+	.logo {
+	width: 42%;
+	
+	}
+}
+
+
+/*Medium devices*/
+@media (min-width: 768px) {
+	button.navbar-toggler {
+        position: absolute !important;
+        right: 20px !important;
+        top: 20px !important;
+    }
+	.logo {
+		width: 25%;
+		
+	}
+}
+
+/*Large devices*/
+@media (min-width: 992px) {
+	.logo {
+		width: 20%;
+		
+	}
+}
+
+/*Extra large devices*/
+@media (min-width: 1200px) {
+.logo {
+	width: 40%;
+	max-height:6vh;
+	}
 }
