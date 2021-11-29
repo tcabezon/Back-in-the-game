@@ -23,6 +23,37 @@ footer {
     font-size:0.8em;
 }
 
+.footer-sm {
+    display:none;
+}
+
 hr { 
     border-top: 2px solid white; 
+}
+
+.fa-xs {
+    padding-left: 10px;
+}
+.fa-chevron-up {
+    transition: all 0.3s ease;
+    
+ }
+.btn.collapsed .fa-chevron-up {
+  transform: rotate(180deg);
+  padding-right: 10px;
+}
+
+
+
+/** Footer Media Queries **/
+
+/** Collapseable Footer for Mobile View **/
+@media (max-width: 767px) {
+    .footer-lg-md {
+        display:none;
+    }
+    .footer-sm {
+        display: contents;
+    }
+        
 }
