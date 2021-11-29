@@ -37,7 +37,7 @@
   <body>
 
     <!-- Back to top button-->
-    <button style="display: none; position: fixed; bottom: 20px; right: 20px;cursor: pointer;"onclick="topFunction()" id="topBtn" title="Go to top" type="button" class="btn btn-dark">Back to top</button>
+    <button style="display: none; position: fixed; bottom: 20px; right: 20px;cursor: pointer;" onclick="topFunction()" id="topBtn" title="Back to top" type="button" class="btn btn-dark"> Back to top</button>
     <script>
       // When the user scrolls down half the height from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
@@ -112,8 +112,8 @@
             <!--Visible in lg, hidden Rest-->
             <div class="col-1  bg-dark h-75 text-light d-lg-block d-none"></div>
             <div class="col-4  bg-dark h-75 text-light d-lg-block d-none pe-3 ">
-              <h1>Back In the Game®<br>Mental Skills Training</h1>
-              <p>A sports performace porogram designed to help atheletes develop the mentas skills necessary to take their game to the next level.</p>
+              <h1 class="resize-h1">Back In the Game®<br>Mental Skills Training</h1>
+              <p>A sports performace program designed to help atheletes develop the mental skills necessary to take their game to the next level.</p>
             </div>
 
             <div class="col-7 bg-dark  text-end h-100 d-lg-block d-none g-0">
@@ -141,7 +141,7 @@
                 background-position: left;
                 background-repeat: no-repeat;" >
 
-                  <h1 class='text-right'>Center Stage®<br>Performance Coaching</h1>
+                  <h1 class="text-right">Center Stage®<br>Performance Coaching</h1>
                   <p>A new program provided by The Better Institute to help performing artists reach their peak.</p>
 
               </div>
@@ -162,7 +162,7 @@
 
             
             <div class="col-4 col-xl-3 bg-dark h-75 text-light d-lg-block d-none ps-3 ">
-              <h1>Center Stage®<br>Performance Coaching</h1>
+              <h1 class="resize-h1">Center Stage®<br>Performance Coaching</h1>
               <p>A new program provided by The Better Institute to help performing artists reach their peak.</p>
             </div>
             <div class="col-1 col-xl-2 bg-dark h-75 text-light d-lg-block d-none"></div>
@@ -190,7 +190,9 @@
               <div class="col-lg-8 col-md-6 col-sm-12">
                  <p class="h2 text-start">Back In the Game<br>Mental Skills Training</p>
                  <p>Back in the Game is mental skills training and educational course for athletes of all ages. We focus on teaching the to help athletes build a strong mental game and maintain good emotional health.</p>
-                 <button type="button" class="btn btn-dark">Get Started</button>
+                 <form action="services.html">
+                   <input type="submit" class= "btn btn-dark" value="Get Started">
+                 </form>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 text-center">
                  <img class="homelogo" src="images/logowhite.png">
@@ -280,6 +282,7 @@
                        <ul>
                        <li class="benefits">Advance sports performance via proven strategies that build confidence, increase motivation, improve focus and manage performance anxiety</li>
                        <li class="benefits">Access resources and personalized feedback through assessments and exercises that target six core areas of mental skill development</li>
+                       </ul>
                     </div>
                     <div class="col">
                        <ul>
@@ -621,6 +624,6 @@
     -->
 
   
-  
+  </div>
   </body>
 </html>

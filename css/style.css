@@ -28,6 +28,7 @@
 	color: #000;
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
+	
 }
 
 .greybox {
@@ -83,6 +84,9 @@
 	width: 42%;
 	
 	}
+	.navbar-add-padding {
+		height: 8vh !important;
+	}
 }
 
 
@@ -91,13 +95,21 @@
 	button.navbar-toggler {
         position: absolute !important;
         right: 20px !important;
-        
-		
     }
 	
 	.logo {
 		width: 25%;
 		
+	}
+
+	.navbar-add-padding {
+		height: 8vh !important;
+	}
+}
+/*Edit size of Landing Page text between several sizes*/
+@media (min-width: 992px) and (max-width: 1188px) {
+	.resize-h1 {
+		font-size: 200%;
 	}
 }
 
@@ -106,6 +118,10 @@
 	.logo {
 		width: 20%;
 		
+	}
+
+	.navbar-add-padding {
+		height: 6vh !important;
 	}
 }
 
