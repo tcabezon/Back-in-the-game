@@ -8,6 +8,7 @@
 .banner {
     /**background-color:#282828;**/
     font-family: 'Montserrat', sans-serif;
+    height:fit-content;
 }
 
 
@@ -67,6 +68,8 @@
 {
     margin-left: 50px;
 }
+
+
 /** Media Queries **/
 
 /*** phone ***/
