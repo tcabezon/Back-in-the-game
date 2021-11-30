@@ -7,6 +7,7 @@
 }
 
 
+
 .bg-white {
 	background-color: #fff;
 	height: 80px;
@@ -50,10 +51,43 @@
 	margin-bottom: 3%!important;
 }
 
+.h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700!important;
+	font-size: 	1.5em!important;
+	margin-bottom: 3%!important;
+}
+
+.h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700!important;
+	font-size: 	1.2em!important;
+}
+
 .homeimage {
 	margin-bottom: 3%;
 	margin-top: 3%;
   	width: 100%;
+}
+
+.courses-icon {
+	opacity: 0.7;
+	width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  display: block;
+}
+
+.services-icon {
+	opacity: 0.7;
+	width: auto;
+	height: 60px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  display: block;
 }
 
 .homelogo {
