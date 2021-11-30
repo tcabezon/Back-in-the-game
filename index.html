@@ -7,53 +7,46 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Back in the game</title>
-
-    <!-- ************************* COPY AND PASTE THESE TWO STYLE SHEETS INTO THE HEAD Megan ***********************************-->
-    <!-- Stylesheet -->
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/style-footer.css">
-     <!--********************************* COPY AND PASTE STYLESHEET REFERENCES ************************************-->
-     <link rel="stylesheet" type="text/css" href="css/style-testimonials-edited.css">
-     <link rel="stylesheet" type="text/css" href="css/style-results-edited.css">
-     <!--********************************* END COPY AND PASTE HERE *************************************************-->
+    <link rel="stylesheet" type="text/css" href="css/style-testimonials-edited.css">
+    <link rel="stylesheet" type="text/css" href="css/style-results-edited.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
     <!-- Icons from FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
-    
-    <!-- ************************** END COPY AND PASTE OF STYLE SHEETS HERE **********************************************-->
 
-    <!-- Stylesheets Dreami -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-      <script src="js/backToTop.js"></script>
-  
-
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
       
-
+    <!-- Javascript for 'Back to Top' button-->
+    <script src="js/backToTop.js"></script>
+  
+    <title>Back in the Game</title>
   </head>
-  <body>
 
-    <!-- Back to top button-->
+  <body>
+    <!-- 'Back to Top' button-->
     <button style="display: none; position: fixed; bottom: 20px; right: 20px;cursor: pointer;" onclick="topFunction()" id="topBtn" title="Back to top" type="button" class="btn btn-dark"> Back to top</button>
     <script>
-      // When the user scrolls down half the height from the top of the document, show the button
+      // When user scrolls down halfway, show button
       window.onscroll = function() {scrollFunction()};
     </script>
 
-
-    <!-- **************************** IF DOC DOES NOT HAVE JAVASCRIPT YET, COPY AND PASTE THIS Megan *************************************-->
+    <!-- Bootstrap Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- **************************** END COPY AND PASTE JAVASCRIPT HERE************************************************************-->
 
-    <!-- START heather -->
+    <!-- Header Container -->
     <div style="height: 6vh;" class="container navbar-add-padding">
-      <!--Navbar -->
+      <!-- Bootstrap Navigation Bar -->
       <nav class="navbar h-100 navbar-expand-lg navbar-light bg-white">
+        <!-- Elements Container -->
         <div class="container">
            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logocrop.png"></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,48 +67,33 @@
                     <a class="nav-link" href="#">Contact</a>
                  </li>
               </ul>
-           </div>
-        </div>
-     </nav>
-      
-  </div>
-  <!-- END heather -->
+           </div><!-- elements container -->
+        </div><!-- navbar container-->
+      </nav>    
+  </div><!-- header container-->
 
   
-    <!--START landing page-->
+  <!--************************  Landing Page  ************************-->
     <div style="height: 94vh;">
-
-      <!-- START images-->
-      <div   class="container-fluid h-100 bg-dark">
-        <div  class="row h-50 align-items-end ">
-
-          <!-- BACK IN THE GAME -->
-
-            <!--Visible in md, hidden Rest-->
-            
+      <div class="container-fluid h-100 bg-dark">
+        <div class="row h-50 align-items-end ">
+          <!-- Top Image - 'Back in the Game' -->
+            <!-- Medium View -->
             <div class="container-fluid bg-dark d-lg-none d-md-block h-100 g-0 ">
-              <div
-                class="bg-image h-100 p-5 text-left text-white"
-                style=" background-image: url('images/game3mini.png');
-                background-size: auto 100% ;
-                background-position: right;
-                background-repeat: no-repeat;" >
+              <div class="bg-image h-100 p-5 text-left text-white" style=" background-image: url('images/game3mini.png'); background-size: auto 100% ; background-position: right; background-repeat: no-repeat;" >
+                <h1 >Back In the Game®<br>Mental Skills Training</h1>
+                <p>A sports performace program designed to help athletes develop the mental skills necessary to take their game to the next level.</p>
+              </div><!-- row -->
+            </div><!-- container -->
 
-                  <h1 >Back In the Game®<br>Mental Skills Training</h1>
-                  <p>A sports performace program designed to help atheletes develop the mentas skills necessary to take their game to the next level.</p>
-
-              </div>
-              
-            </div>
-            <!--END Visible in md, hidden Rest-->
-
-            <!--Visible in lg, hidden Rest-->
+            <!-- Large View -->
             <div class="col-1  bg-dark h-75 text-light d-lg-block d-none"></div>
             <div class="col-4  bg-dark h-75 text-light d-lg-block d-none pe-3 ">
               <h1 class="resize-h1">Back In the Game®<br>Mental Skills Training</h1>
               <p>A sports performace program designed to help atheletes develop the mental skills necessary to take their game to the next level.</p>
             </div>
-
+            
+            <!-- Format Top Image -->
             <div class="col-7 bg-dark  text-end h-100 d-lg-block d-none g-0">
               <div
                 class="bg-image h-100 p-5 text-left text-white"
@@ -125,31 +103,24 @@
                 background-repeat: no-repeat;" >
               </div>
             </div>
-            <!--END Visible in lg, hidden Rest-->
 
-           <!-- END BACK IN THE GAME -->
+            <!-- Bottom Image -'Back in the Game' -->
 
-          <!-- CENTER STAGE -->
-
-            <!--Visible in md, hidden Rest-->
-            
+            <!--Medium View-->
             <div class="container-fluid bg-dark d-lg-none text-right d-md-block h-100 g-0 ">
               <div
                 class="bg-image h-100 p-5 text-white"
                 style=" background-image: url('images/stage4mini.png');
                 background-size: auto 100% ;
                 background-position: left;
-                background-repeat: no-repeat;" >
-
-                  <h1 class="text-right">Center Stage®<br>Performance Coaching</h1>
-                  <p>A new program provided by The Better Institute to help performing artists reach their peak.</p>
-
+                background-repeat: no-repeat;">
+                <h1 class="text-right">Center Stage®<br>Performance Coaching</h1>
+                <p>A new program provided by The Better Institute to help performing artists reach their peak.</p>
               </div>
-              
-            </div>
-            <!--END Visible in md, hidden Rest-->
+            </div><!-- container -->
 
-            <!--Visible in lg, hidden Rest-->
+            <!-- Large View -->
+            <!-- Format Bottom Image -->
             <div class="col-7 bg-dark  text-end h-100 d-lg-block d-none g-0">
               <div
                 class="bg-image h-100 p-5 text-left text-white"
@@ -157,32 +128,18 @@
                 background-size: auto 100% ;
                 background-position: left;
                 background-repeat: no-repeat;" >
-              </div>
+              </div>            
             </div>
-
-            
             <div class="col-4 col-xl-3 bg-dark h-75 text-light d-lg-block d-none ps-3 ">
               <h1 class="resize-h1">Center Stage®<br>Performance Coaching</h1>
               <p>A new program provided by The Better Institute to help performing artists reach their peak.</p>
             </div>
+            <!-- Format Bottom Container-->
             <div class="col-1 col-xl-2 bg-dark h-75 text-light d-lg-block d-none"></div>
+        </div><!-- rows -->
+      </div><!-- landing page container -->
 
-            
-            <!--END Visible in lg, hidden Rest-->
-            
-           <!-- END CENTER STAGE -->
-
-        
-      <!-- END images-->
-
-    </div>
-    </div>
-    <!--END landing page-->
-
-    
-
-    <!-- START About page content-->
-    
+      <!--************************  What is Back in the Game/Center Stage?  ************************-->
       <!-- Gradient Box -->
       <div class="gradientbox">
         <div class="container">
@@ -196,10 +153,10 @@
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 text-center">
                  <img class="homelogo" src="images/logowhite.png">
-              </div>
-           </div>
-        </div>
-     </div>
+              </div> <!-- logo col -->
+           </div><!-- containter-->
+        </div><!-- row -->
+     </div><!-- gradientbox-->
 
      <!-- Program Information !-->
      <div class="whitebox">
@@ -210,8 +167,8 @@
               <div class="col-lg-8 col-sm-12 text-left">
                  <p class="h2">What is Back in the Game®?</p>
                  <p>Back in the Game® is a sports performance program designed to help athletes develop the mental skills necessary to take their game to the next level. We’ve identified six core mental skills that are critical to developing a mental edge and amplifying talent. We provide coaching sessions to teams and private lessons to individual athletes based on these core skills. Back in the Game harnesses game-changing expertise to help athletes out-perform the competition and build on success.</p>
-              </div>
-           </div>
+              </div> <!-- col -->
+           </div><!-- row -->
            <br>
            <div class="row">
               <div class="col-lg-4 col-sm-12 order-lg-5 text-end">
@@ -220,13 +177,13 @@
               <div class="col-lg-8 col-sm-12 order-lg-1">
                  <p class="h2">What is Center Stage®?</p>
                  <p>Center Stage is a new program offered by The Better Institute dedicated to helping performers prepare for auditions, work on their craft, and gain confidence in their abilities. We offer online courses for general performance development, and individual coaching sessions for performers looking for more personalized programming. </p>
-              </div>
-           </div>
-        </div>
+              </div><!-- row -->
+           </div><!-- container-->
+        </div><!-- whitebox-->
      </div>
      
 
-     <!--************************************** COPY AND PASTE TESTIMONIALS START HERE *********************************-->
+     <!--************************  Program Testimonials  ************************-->
      <div class= "banner bg-dark">
       <div class="container container-testimonials">
           <section class="testimonials">
@@ -238,39 +195,37 @@
                       <div class="card">
                           <div class="card-body">
                               <img src="images/bike_icon2.png" alt="biking icon" class="testimonial-icon text-center">
-                          <p class="card-text card-dark">“Back in the Game made me more aware of the mental aspects of the game."</p>
-                          
-                          </div>
-                      </div>
-                  </div>
+                              <p class="card-text card-dark">“Back in the Game made me more aware of the mental aspects of the game."</p>
+                          </div><!-- card body -->
+                      </div><!-- card -->
+                  </div><!-- col -->
+
                   <!-- Card 2 -->
                   <div class="col-md-4 pb-4 pt-2 px-2">
                       <div class="card">
                           <div class="card-body">
                               <img src="images/run_icon1.png" alt="running icon" class="testimonial-icon text-center">
                               <p class="card-text card-dark">“I think that this program made me a student of the game”</p>
-                          </div>
-                      </div>
-                  </div>
+                          </div><!-- card body -->
+                      </div><!-- card -->
+                  </div><!-- col -->
+
                   <!-- Card 3-->
                   <div class="col-md-4 pb-4 pt-2 px-2">
                       <div class="card">
                           <div class="card-body">
                               <img src="images/racquet_icon4.png" alt="racquet icon" class="testimonial-icon text-center">
                               <p class="card-text card-dark">“It has taught me many ways to relax my mind so it can flourish.”</p>
-                          </div>
-                      </div>
-                  </div><!-- Card 3 -->
+                          </div><!-- card body -->
+                      </div><!-- card -->
+                  </div><!-- col -->
               </div><!-- row -->
               <br>
-          </section>
+          </section><!-- testimonials -->
       </div><!-- banner -->
     </div><!-- container -->
-    <!--********************************* COPY AND PASTE END HERE ********************************************-->
-
-
-
-     <!-- Program Benefits !-->
+    
+     <!--************************  Program Benefits  ************************-->
      <div class="whitebox">
         <div class="container">
            <div class="row">
@@ -280,7 +235,7 @@
                  <div class="row">
                     <div class="col">
                        <ul>
-                       <li class="benefits">Advance sports performance via proven strategies that build confidence, increase motivation, improve focus and manage performance anxiety</li>
+                       <li class="benefits">Advanced sports performance via proven strategies that build confidence, increase motivation, improve focus and manage performance anxiety</li>
                        <li class="benefits">Access resources and personalized feedback through assessments and exercises that target six core areas of mental skill development</li>
                        </ul>
                     </div>
@@ -296,7 +251,7 @@
         </div>
      </div>
      
-     <!--***************************** COPY AND PASTE START HERE **********************************************-->
+    <!--************************  Program Results  ************************-->
      <div class = "banner bg-dark">
       <div class= "container container-testimonials">
           <section class="results">
@@ -353,11 +308,7 @@
       </div> <!-- container -->
   </div><!-- banner -->
 
-  <!--- ************************************END COPY AND PASTE HERE ****************************************************-->
-
-
-
-     <!-- Meet the Team !-->
+     <!--************************  Meet the Team  ************************-->
      <div class="whitebox">
         <div class="container">
            <div class="row">
@@ -383,247 +334,219 @@
            </div>
         </div>
      </div>
-    <!-- END About page content-->
 
-  
-  
-  
-<!--************************* COPY AND PAST STARTING AT FOOTER ***********************-->
+    <!--************************  Footer (Large and Small View)  ************************-->
+    <div class="footer-lg-md">
+      <footer class="text-center text-lg-start text-white">
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start pt-4 mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="mb-4 footer-header-main">
+                  Back In the Game
+                </h6>
+                <h6><strong>Contact Rob</strong></h6>
+                <p>
+                    <i class="fas fa-phone me-3"></i>(412) 343-0613
+                    <br><a href = "mailto: rob@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rob@betterinstitute.com" target="_blank">rob@betterinstitute.com</a>
+                </p>
+                <h6><strong>Contact Rachael</strong></h6>
+                <p>
+                    <i class="fas fa-phone me-3"></i>(412) 628-5447
+                    <br><a href = "mailto: rachael@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rachael@betterinstitute.com" target="_blank">rachael@betterinstitute.com</a>
+                  </p>
+              </div><!-- col -->
 
-<!-----     Footer     -------->
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="pt-2 mb-4 footer-header-small">
+                  Quick Links
+                </h6>
+                <p>
+                  <a href="index.html" class="text-reset text-decoration-none">About</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none">Services</a>
+                </p>
+                <p>
+                  <a href="podcast.html" class="text-reset text-decoration-none">Podcast</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none">Contact</a>
+                </p>
+              </div><!-- col -->
 
-<div class="footer-lg-md">
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="pt-2 mb-4 footer-header-small">
+                  Connect
+                </h6>
+                <p>
+                    <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/BetterInstitute/" class="text-reset text-decoration-none" target="_blank">Facebook</a>
+                </p>
+                <p>
+                    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/robert-bumbaco-63a17960/" class="text-reset text-decoration-none" target="_blank">LinkedIn</a>
+                </p>
+              </div><!-- col -->
+              
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="pt-2 mb-4 footer-header-small">
+                  Locations
+                </h6>
+                <a href="https://goo.gl/maps/iYBnTrn1sMGcu21n9" class="text-reset text-decoration-none" target="_blank">
+                <p>1 Williamsburg Pl #203, 
+                    <br>Warrendale, PA 15086
+                </p>
+                </a>
 
-<footer class="text-center text-lg-start text-white">
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start pt-4 mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="mb-4 footer-header-main">
-            Back In the Game
-          </h6>
-          
-          <h6><strong>Contact Rob</strong></h6>
-          <p>
-              <i class="fas fa-phone me-3"></i>(412) 343-0613
-              <br><a href = "mailto: rob@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rob@betterinstitute.com" target="_blank">rob@betterinstitute.com</a>
-          </p>
-          <h6><strong>Contact Rachael</strong></h6>
-          <p>
-              <i class="fas fa-phone me-3"></i>(412) 628-5447
-              <br><a href = "mailto: rachael@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rachael@betterinstitute.com" target="_blank">rachael@betterinstitute.com</a>
+                <a href="https://goo.gl/maps/6M32PjiBfAawabRr6" class="text-reset text-decoration-none" target="_blank">
+                <p>
+                    20 Cedar Blvd, 
+                    <br>Pittsburgh, PA 15228
+                </p>
+                </a>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <hr id="white-divider"/>
+
+            <div class = "d-flex justify-content-between pt-2 pb-4">
+            <!-- Copyright -->
+            <div class="footer-copyright">
+            The Better Institute 2021. All Rights Reserved.
+            </div>
+
+            <!-- Privacy Policy -->
+            <div class="footer-copyright">
+              <a class="text-reset text-decoration-none" href="https://betterinstitute.com/privacy-policy/" target="_blank">Privacy policy</a>
+            </div>
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+      </footer>
+    </div> <!--footer-lg-md-->
+
+    <!-- Collapsible Footer (Small View) -->
+    <div class="footer-sm">
+      <div class="accordion" id="accordionExample">
+        <!-- Back in the Game Card -->
+        <div class="bg-dark text-white text-center">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h6 class="pt-2 footer-header-small">Back in the Game <i class="fas fa-chevron-up fa-xs"></i></h6> 
+              </button>
+            </h5>
+          </div>
+          <!-- Back in the Game Card Content -->
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body text-left">
+              <h6><strong>Contact Rob</strong></h6>
+              <p>
+                  <i class="fas fa-phone me-3"></i>(412) 343-0613
+                  <br><a href = "mailto: rob@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rob@betterinstitute.com" target="_blank">rob@betterinstitute.com</a>
+              </p>
+              <h6><strong>Contact Rachael</strong></h6>
+              <p>
+                  <i class="fas fa-phone me-3"></i>(412) 628-5447
+                  <br><a href = "mailto: rachael@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rachael@betterinstitute.com" target="_blank">rachael@betterinstitute.com</a>
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links Card -->
+        <div class="bg-dark text-white text-center">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h6 class="pt-2 footer-header-small">Quick Links <i class="fas fa-chevron-up fa-xs"></i></h6>
+              </button>
+            </h5>
+          </div>
+          <!-- Quick Links Card Content -->
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                <a href="index.html" class="text-reset text-decoration-none">About</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none">Services</a>
+              </p>
+              <p>
+                <a href="podcast.html" class="text-reset text-decoration-none">Podcast</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Card -->
+        <div class="bg-dark text-white text-center">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h6 class="pt-2 footer-header-small">Social Media<i class="fas fa-chevron-up fa-xs"></i></h6>
+              </button>
+            </h5>
+          </div>
+          <!-- Contact Card Content -->
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/BetterInstitute/" class="text-reset text-decoration-none" target="_blank">Facebook</a>
             </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="pt-2 mb-4 footer-header-small">
-            Quick Links
-          </h6>
-          <p>
-            <a href="index.html" class="text-reset text-decoration-none">About</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset text-decoration-none">Services</a>
-          </p>
-          <p>
-            <a href="podcast.html" class="text-reset text-decoration-none">Podcast</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset text-decoration-none">Contact</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="pt-2 mb-4 footer-header-small">
-            Connect
-          </h6>
-          <p>
-              <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/BetterInstitute/" class="text-reset text-decoration-none" target="_blank">Facebook</a>
-          </p>
-          <p>
-              <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/robert-bumbaco-63a17960/" class="text-reset text-decoration-none" target="_blank">LinkedIn</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="pt-2 mb-4 footer-header-small">
-            Locations
-          </h6>
-          <a href="https://goo.gl/maps/iYBnTrn1sMGcu21n9" class="text-reset text-decoration-none" target="_blank">
-          <p>1 Williamsburg Pl #203, 
-              <br>Warrendale, PA 15086
-          </p>
-          </a>
-
-          <a href="https://goo.gl/maps/6M32PjiBfAawabRr6" class="text-reset text-decoration-none" target="_blank">
-          <p>
-              20 Cedar Blvd, 
-              <br>Pittsburgh, PA 15228
-          </p>
-          </a>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <hr id="white-divider"/>
-
-      <div class = "d-flex justify-content-between pt-2 pb-4">
-      <!-- Copyright -->
-      <div class="footer-copyright">
-      The Better Institute 2021. All Rights Reserved.
-      </div>
-
-      <div class="footer-copyright">
-      <a class="text-reset text-decoration-none" href="https://betterinstitute.com/privacy-policy/" target="_blank">Privacy policy</a>
-      </div>
-      <!-- Copyright -->
-      </div>
-
-      <!-- Grid row -->
-    </div>
-  </section>
-  
-</footer>
-
-</div> <!--footer-lg-md-->
-<!-- Footer -->
-
-<!-- Collapsible Footer -->
-<div class="footer-sm">
-  
-  <div class="accordion" id="accordionExample">
-    <!-- Back in the Game Card -->
-    <div class="bg-dark text-white text-center">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <h6 class="pt-2 footer-header-small">Back in the Game <i class="fas fa-chevron-up fa-xs"></i></h6> 
-          </button>
-        </h5>
-      </div>
-  
-      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-        <div class="card-body text-left">
-          <h6><strong>Contact Rob</strong></h6>
-          <p>
-              <i class="fas fa-phone me-3"></i>(412) 343-0613
-              <br><a href = "mailto: rob@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rob@betterinstitute.com" target="_blank">rob@betterinstitute.com</a>
-          </p>
-          <h6><strong>Contact Rachael</strong></h6>
-          <p>
-              <i class="fas fa-phone me-3"></i>(412) 628-5447
-              <br><a href = "mailto: rachael@betterinstitute.com" class="text-reset" target="_blank"><i class="fas fa-envelope me-3"></i></a> <a class= "text-reset text-decoration-none" href = "mailto: rachael@betterinstitute.com" target="_blank">rachael@betterinstitute.com</a>
-            </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Quick Links Card -->
-    <div class="bg-dark text-white text-center">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <h6 class="pt-2 footer-header-small">Quick Links <i class="fas fa-chevron-up fa-xs"></i></h6>
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-        <div class="card-body">
-          <p>
-            <a href="index.html" class="text-reset text-decoration-none">About</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset text-decoration-none">Services</a>
-          </p>
-          <p>
-            <a href="podcast.html" class="text-reset text-decoration-none">Podcast</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset text-decoration-none">Contact</a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact Card -->
-    <div class="bg-dark text-white text-center">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <h6 class="pt-2 footer-header-small">Social Media<i class="fas fa-chevron-up fa-xs"></i></h6>
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body">
-          <p>
-            <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/BetterInstitute/" class="text-reset text-decoration-none" target="_blank">Facebook</a>
-        </p>
-        <p>
-            <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/robert-bumbaco-63a17960/" class="text-reset text-decoration-none" target="_blank">LinkedIn</a>
-        </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Location Card -->
-    <div class="bg-dark text-white text-center">
-      <div class="card-header" id="headingFour">
-        <h5 class="mb-0">
-          <button class="btn text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            <h6 class="pt-2 footer-header-small">Location <i class="fas fa-chevron-up fa-xs"></i></h6>
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-        <div class="card-body">
-          <a href="https://goo.gl/maps/iYBnTrn1sMGcu21n9" class="text-reset text-decoration-none" target="_blank">
-            <p>1 Williamsburg Pl #203, 
-                <br>Warrendale, PA 15086
-            </p>
-            </a>
-  
-            <a href="https://goo.gl/maps/6M32PjiBfAawabRr6" class="text-reset text-decoration-none" target="_blank">
             <p>
-                20 Cedar Blvd, 
-                <br>Pittsburgh, PA 15228
+                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/robert-bumbaco-63a17960/" class="text-reset text-decoration-none" target="_blank">LinkedIn</a>
             </p>
-            </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Location Card -->
+        <div class="bg-dark text-white text-center">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn text-white text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <h6 class="pt-2 footer-header-small">Location <i class="fas fa-chevron-up fa-xs"></i></h6>
+              </button>
+            </h5>
+          </div>
+          <!-- Location Card Content -->
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              <a href="https://goo.gl/maps/iYBnTrn1sMGcu21n9" class="text-reset text-decoration-none" target="_blank">
+                <p>1 Williamsburg Pl #203, 
+                    <br>Warrendale, PA 15086
+                </p>
+                </a>
+      
+                <a href="https://goo.gl/maps/6M32PjiBfAawabRr6" class="text-reset text-decoration-none" target="_blank">
+                <p>
+                    20 Cedar Blvd, 
+                    <br>Pittsburgh, PA 15228
+                </p>
+                </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </div><!-- footer-sm -->
 
-
-  </div>
-</div><!-- footer-sm -->
-
-
-<!--********************** END COPY AND PASTE OF FOOTER HERE **************************-->
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-
-  
-  </div>
+    </div>
   </body>
 </html>
