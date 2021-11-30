@@ -8,10 +8,10 @@
 
 
 
-.bg-white {
+/*.bg-white {
 	background-color: #fff;
 	height: 80px;
-}
+}*/
 
 .gradientbox {
 	background: linear-gradient(140deg, rgba(143,190,64,1) 10%, rgba(24,157,207,1) 100%);
