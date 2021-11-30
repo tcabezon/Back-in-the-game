@@ -5,6 +5,8 @@
 footer {
     background-color:#282828;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    position: absolute;
 }
 
 .footer-header-main {
