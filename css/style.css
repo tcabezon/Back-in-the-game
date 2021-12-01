@@ -6,7 +6,9 @@
 	font-size: 16px;
 }
 
-
+body {
+	padding-top: 30px;
+}
 
 /*.bg-white {
 	background-color: #fff;
@@ -160,11 +162,15 @@
 @media (min-width: 992px) {
 	.logo {
 		width: 20%;
-		
+		margin-top: -26px;
 	}
 
 	.navbar-add-padding {
 		height: 6vh !important;
+	}
+
+	.navbar-overlap {
+		margin-top: -3%;
 	}
 }
 
