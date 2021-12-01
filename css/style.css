@@ -117,6 +117,8 @@
 	.navbar-add-padding {
 		height: 8vh !important;
 	}
+
+	
 }
 
 
@@ -136,10 +138,21 @@
 		height: 8vh !important;
 	}
 }
+
+	
 /*Edit size of Landing Page text between several sizes*/
 @media (min-width: 992px) and (max-width: 1188px) {
 	.resize-h1 {
 		font-size: 200%;
+	}
+}
+
+/*Edit size of Course Icons on Service Page */
+@media screen and (max-width: 976px) {
+	.courses-icon {
+		width: 30%;
+		height: auto;
+		padding-bottom: 7%;
 	}
 }
 
